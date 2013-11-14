@@ -1,0 +1,21 @@
+stylists = {
+	'Cleveland' => "Robin",
+	'Atlanta' => "Jennifer",
+	'Miami' => "Rosa",
+	'Los Angeles' => "Maria"
+}
+
+
+phone = {
+	'Robin' => '000'
+	'Jennifer' => '111'
+	'Rosa' => '222'
+	'Maria' => '333'
+}
+
+
+for city, person in stylists
+	puts "%s lives in %s and her number is %s" % [person, city, [num[phone]]
+end
+	
+	
